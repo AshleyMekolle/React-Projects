@@ -1,0 +1,85 @@
+
+
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+ }
+ 
+ 
+.to-do-list{
+  background-color: beige;
+  height: auto;
+  width: auto;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 5px solid rgba(255,255,255,.2);
+}
+
+.to-do-list h1{
+  margin-left: 90px;
+}
+
+.to-do-list input{
+  font-size: 15px;
+  width: 250px;
+  height: 30px;
+  background: #eaeaea;
+  outline: none;
+  border: 2px solid rgba(255,255,255,.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+  text-transform: capitalize;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.to-do-list .add-button{
+  position: relative;
+  left: 20px;
+}
+.to-do-list ol li{
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+  padding-top: 10px;
+}
+
+.to-do-list ol button{
+  position: relative;
+  left: 10px;
+  display: inline-block;
+  margin: 4px;
+}
+
+footer{
+  background-color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  margin-top: 200px;
+  }
+
+.d-container form{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color:  rgb(204, 157, 152);
+  width: 200px;
+  border-radius: 20px;
+  gap: 1px;
+}
+
+input{
+padding: 10px;
+background-color: transparent;
+border: none;
+border-bottom: 1px solid gray;
+}
