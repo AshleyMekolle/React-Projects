@@ -247,10 +247,10 @@ body {
   color: var(--text-secondary);
 }
 
-/* Category-specific colors */
+
 .category-tag.personal {
   background-color: #dbeafe;
-  color: #1e40af;
+  color: #af1e9c;
 }
 
 .category-tag.work {

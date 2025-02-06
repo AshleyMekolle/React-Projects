@@ -181,7 +181,7 @@ function ToDoList() {
 
                     {filteredTasks.length === 0 && (
                         <div className="empty-state">
-                            No tasks found. Add some tasks to get started!
+                            No tasks found
                         </div>
                     )}
                 </div>
